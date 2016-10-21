@@ -1,4 +1,5 @@
 def brak(s):
+	"""Validates the nesting of brackets"""
 	depth = []
 	topPlace = 0
 	brakpair = {
