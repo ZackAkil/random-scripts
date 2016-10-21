@@ -1,5 +1,6 @@
 import operator
 def infstr(s):
+	"""Tests for an infinity string."""
 	a=map(ord,s)
 	m=lambda x,y:x-y
 	t=lambda i,j:i*j   
